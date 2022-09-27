@@ -1,3 +1,3 @@
-# ReactApp2
+# React_API
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ixzb74)
