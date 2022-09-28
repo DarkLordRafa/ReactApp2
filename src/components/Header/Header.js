@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(){
   return(
-    <header className="container bg-prmary">
+    <header className="container bg-primary">
       <h1>Buscador
       <br></br>
       de
