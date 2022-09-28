@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css";
+import "./app.css";
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
+    <div className"bg-primary">
+      <h1 className="mt-5">Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
     </div>
   );
