@@ -1,0 +1,14 @@
+
+.cep-content{
+  width: 60%;
+}
+
+.cep-content h1{
+  text-transform: uppercase;
+  font-size: 6vw;
+}
+
+.cep-content span{
+  font-size: 4vw;
+  text-align: left;
+}
