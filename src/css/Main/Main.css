@@ -15,6 +15,6 @@
   align-self: flex-start;
 }
 
-.cep-content span > *{
+.cep-content span *{
   font-weight: bold;
 }
