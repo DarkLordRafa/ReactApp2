@@ -14,7 +14,7 @@ function Header(){
       
       <div className="mt-3 d-flex align-items-center justify-content-center">
         <input type="text" placeholder="Insira um cep" className="form-control"></input>
-        <button className="btn btn-light ms-3 text-color-black">Buscar</button>
+        <button className="btn btn-light ms-3 text-black">Buscar</button>
       </div>
     </header>
   )
