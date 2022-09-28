@@ -7,11 +7,12 @@ import "./css/Main/Main.css";
 
 export default function App() {
 
-  const [cep, setCep] = useState("");
+  const [cepInput, setCepInput] = useState("");
+  const [cepInfo, setCepInfo] = useState({});
   
   async function searchCep() {
     
-    if (cep === "") {
+    if (cepInput === "") {
     alert("Insira um CEP");
     return;
   }
@@ -19,11 +20,13 @@ export default function App() {
     try{
       
       const response = await api.get(`${cep}/json`);
-      console.log(response.data);
+      setCepInfo(response.data);
+      console.log(cepInfo);
+      setCepInput("");
       
     } catch{
       alert("Houve um erro ao buscar o CEP. Certifique-se de colocar um CEP válido.");
-      setCep("");
+      setCepInput("");
     }
   }
 
@@ -34,7 +37,7 @@ export default function App() {
 	      <h1>Buscador de cep</h1>
       
 	      <div className="mt-5 d-flex align-items-center justify-content-center">
-		       <input value={cep} type="number" placeholder="Insira um cep" onChange={(e) => setCep(e.target.value)}></input>
+		       <input value={cepInput} type="number" placeholder="Insira um cep" onChange={(e) => setCepInput(e.target.value)}></input>
 		       <button className="btn btn-light ms-4 text-black" onClick={searchCep}>Buscar</button>
 	      </div>
       </header>
