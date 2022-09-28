@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react";
+import api from "./services/api.js";
 import "./app.css";
 import "./css/Header/Header.css";
 import "./css/Main/Main.css";
@@ -7,9 +8,21 @@ import "./css/Main/Main.css";
 export default function App() {
 
   const [cep, setCep] = useState("");
-
+  
+  if (cep === "") {
+    alert("Insira um CEP");
+    return;
+  }
+  
   async function searchCep() {
-    alert("work");
+    try{
+      
+      const response = await api.get(`${cep}/json`);
+      console.log(response);
+      
+    } catch() {
+      alert("Houve um erro ao buscar o CEP. Certifique-se de colocar um CEP válido.")
+    }
   }
 
 
