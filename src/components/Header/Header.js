@@ -4,7 +4,6 @@ import "../../css/Header/Header.css";
 
 function Header(){
   var [cep, setCep] = useState("t");
-  var cep = "tt";
   
   return(
     <header className="container header bg-secondary pt-3 pb-3">
@@ -25,4 +24,3 @@ function Header(){
 }
 
 export default Header
-export var cep
