@@ -19,7 +19,7 @@ export default function App() {
   
     try{
       
-      const response = await api.get(`${cep}/json`);
+      const response = await api.get(`${cepInput}/json`);
       setCepInfo(response.data);
       console.log(cepInfo);
       setCepInput("");
