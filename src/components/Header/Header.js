@@ -3,8 +3,8 @@ import {useState} from "react";
 import Main from "../Main/Main.js";
 import "../../css/Header/Header.css";
 
-function Header(){
-  var [cep, setCep] = useState("t");
+function Header(props){
+  props.tt = var [cep, setCep] = useState("t");
   
   
   return(
