@@ -23,7 +23,7 @@
   </ul>
   
   <h2>Link da aplicação online 👇🏼</h2>
-  <a href="https://react-api-cep.stackblitz.io" target="_blank"></a>
+  (https://react-api-cep.stackblitz.io)
 </div>
 
 
