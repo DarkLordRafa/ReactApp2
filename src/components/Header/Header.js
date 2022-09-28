@@ -12,7 +12,7 @@ function Header(){
         cep
       </h1>
       
-      <div className="mt-3 d-flex align-items-center justify-content-center ps-4 pe-4">
+      <div className="mt-3 d-flex align-items-center justify-content-center p-5">
         <input type="text" placeholder="Insira um cep"></input>
         <button className="btn btn-light ms-3 text-black">Buscar</button>
       </div>
