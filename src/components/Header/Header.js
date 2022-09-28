@@ -3,7 +3,7 @@ import {useState} from "react";
 import "../../css/Header/Header.css";
 
 function Header(){
-  const [cep, setCept] = useState("tt");
+  const [cep, setCept] = useState("");
   
   
   return(
@@ -17,7 +17,7 @@ function Header(){
       </h1>
       
       <div className="mt-3 d-flex align-items-center justify-content-center">
-        <input type="text" placeholder="Insira um cep" value={cep}></input>
+        <input type="text" placeholder="Insira um cep" onChange={(e) => setCep(e.target.value)}></input>
         <button className="btn btn-light ms-4 text-black">Buscar</button>
       </div>
     </header>
