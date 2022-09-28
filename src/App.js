@@ -9,12 +9,13 @@ export default function App() {
 
   const [cep, setCep] = useState("");
   
-  if (cep === "") {
+  async function searchCep() {
+    
+    if (cep === "") {
     alert("Insira um CEP");
     return;
   }
   
-  async function searchCep() {
     try{
       
       const response = await api.get(`${cep}/json`);
