@@ -1,12 +1,13 @@
 
 .cep-content{
   width: 70%;
-  padding-bottom: 20vw;
+  padding-bottom: 40vw!important;
 }
 
 .cep-content h2{
   text-transform: uppercase;
   font-size: 6vw;
+  text-decoration: underline;
 }
 
 .cep-content span{
