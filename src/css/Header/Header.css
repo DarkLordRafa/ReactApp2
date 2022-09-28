@@ -8,11 +8,12 @@
 .header input{
   background-color: transparent;
   color: white;
+  border: none;
   border-bottom: 2px solid white;
   outline: none;
   font-size: 5vw;
-  padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 4vw;
 }
 
 .header input::placeholder{
