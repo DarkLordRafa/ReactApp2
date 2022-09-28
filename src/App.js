@@ -8,6 +8,11 @@ export default function App() {
 
   const [cep, setCep] = useState("");
 
+  async function searchCep() {
+    alert("work");
+  }
+
+
   return (
     <div>
       <header className="container header bg-secondary pt-3 pb-3">
@@ -21,7 +26,7 @@ export default function App() {
       
 	      <div className="mt-3 d-flex align-items-center justify-content-center">
 		       <input type="text" placeholder="Insira um cep" onChange={(e) => setCep(e.target.value)}></input>
-		       <button className="btn btn-light ms-4 text-black">Buscar</button>
+		       <button className="btn btn-light ms-4 text-black" onClick={searchCep}>Buscar</button>
 	      </div>
       </header>
     
