@@ -2,6 +2,7 @@
 .header{
   padding-left: 5vw!important;
   padding-right: 5vw!important;
+  flex: 0!important;
 }
 
 .header h1{
