@@ -1,11 +1,10 @@
 import React from "react";
 import {useState} from "react";
-import Main from "../Main/Main.js";
 import "../../css/Header/Header.css";
 
-function Header(props){
+function Header(){
   var [cep, setCep] = useState("t");
-  
+  var cep = "tt";
   
   return(
     <header className="container header bg-secondary pt-3 pb-3">
@@ -26,4 +25,4 @@ function Header(props){
 }
 
 export default Header
-export cep
+export var cep
