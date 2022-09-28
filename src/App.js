@@ -50,10 +50,10 @@ export default function App() {
 		     <section className="cep-content d-flex flex-column align-items-center bg-white text-black p-3 rounded">
 		       <h3 className="mb-4">Cep: {cepInfo.cep}</h3>
 		      
-		       <span>Cidade: {cepInfo.localidade}</span>
-		       <span>Logradouro: {cepInfo.logradouro}</span>
-		       <span>Estado: {cepInfo.uf}</span>
-		       <span>DDD: {cepInfo.ddd}</span>
+		       <span>Cidade: <b>{cepInfo.localidade}</b></span>
+		       <span>Logradouro: <b>{cepInfo.logradouro}</b></span>
+		       <span>Estado: <b>{cepInfo.uf}</b></span>
+		       <span>DDD: <b>{cepInfo.ddd}</b></span>
 		     </section>
       </main>
     </div>
