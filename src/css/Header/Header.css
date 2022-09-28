@@ -8,10 +8,15 @@
 .header input{
   background-color: transparent;
   color: white;
+  border-bottom: 2px solid white;
+  outline: none;
+  font-size: 5vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 .header input::placeholder{
-  text-decoration: underline;
+  color: lightgray;
 }
 
 .header button{
