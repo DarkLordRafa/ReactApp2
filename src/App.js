@@ -23,7 +23,7 @@ export default function App() {
       
     } catch{
       //alert("Houve um erro ao buscar o CEP. Certifique-se de colocar um CEP válido.");
-      setCep("")
+      setCep("");
     }
   }
 
@@ -40,7 +40,7 @@ export default function App() {
 	      </h1>
       
 	      <div className="mt-3 d-flex align-items-center justify-content-center">
-		       <input type="text" placeholder="Insira um cep" onChange={(e) => setCep(e.target.value)}></input>
+		       <input value={cep} type="text" placeholder="Insira um cep" onChange={(e) => setCep(e.target.value)}></input>
 		       <button className="btn btn-light ms-4 text-black" onClick={searchCep}>Buscar</button>
 	      </div>
       </header>
