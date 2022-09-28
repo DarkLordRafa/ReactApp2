@@ -20,7 +20,7 @@ export default function App() {
       const response = await api.get(`${cep}/json`);
       console.log(response);
       
-    } catch() {
+    } catch{
       alert("Houve um erro ao buscar o CEP. Certifique-se de colocar um CEP válido.")
     }
   }
