@@ -5,6 +5,15 @@
   font-family: sans-serif;
 }
 
+.header input{
+  background-color: transparent;
+  color: white
+}
+
+.header input::placeholder{
+  text-decoration: underline;
+}
+
 .header button{
   font-size: 4.5vw;
 }
