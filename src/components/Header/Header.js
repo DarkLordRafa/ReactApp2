@@ -3,8 +3,8 @@ import "../../css/Header.css";
 
 function Header(){
   return(
-    <header className="container header bg-secondary m-0 p-0">
-      <h1 className="mt-4 d-inline-block">
+    <header className="container header bg-secondary pt-3">
+      <h1>
         Buscador
         <br></br>
         de
