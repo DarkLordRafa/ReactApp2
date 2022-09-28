@@ -11,7 +11,7 @@
 
 .header span{
   font-size: 4.5vw;
-  display: inline-block;
+  display: block;
 }
 
 .header input{
