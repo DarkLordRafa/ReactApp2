@@ -12,7 +12,7 @@ function Main(){
       <span>Complemento: bla bla</span>
       <span>Panelas</span>
       <span>Paneles - PE</span>
-    </section>
+    </section> 
   </main>
   )
 }
