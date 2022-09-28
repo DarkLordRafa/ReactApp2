@@ -4,9 +4,9 @@ function Header(){
   return(
     <header className="container bg-prmary">
       <h1>Buscador
-      <br>
+      <br></br>
       de
-      <br>
+      <br></br>
       cep
       </h1>
     </header>
