@@ -4,7 +4,7 @@
   padding-bottom: 15vw!important;
 }
 
-.cep-content h2{
+.cep-content h3{
   text-transform: uppercase;
   font-size: 6vw;
 }
@@ -13,4 +13,5 @@
   font-size: 4.5vw;
   text-align: left;
   align-self: flex-start;
+  font-weight: bold;
 }

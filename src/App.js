@@ -35,6 +35,10 @@ export default function App() {
     <div>
       <header className="container header bg-secondary pt-3 pb-3">
 	      <h1>Buscador de cep</h1>
+	      <h2>Ceps para teste:</h2>
+	      <span>55470000</span>
+	      <span>01153000</span>
+	      
       
 	      <div className="mt-5 d-flex align-items-center justify-content-center">
 		       <input value={cepInput} type="number" placeholder="Insira um cep" onChange={(e) => setCepInput(e.target.value)}></input>
@@ -44,7 +48,7 @@ export default function App() {
     
       <main className="container d-flex flex-column align-items-center pt-4">
 		     <section className="cep-content d-flex flex-column align-items-center bg-white text-black p-3 rounded">
-		       <h2 className="mb-4">Cep: {cepInfo.cep}</h2>
+		       <h3 className="mb-4">Cep: {cepInfo.cep}</h3>
 		      
 		       <span>Cidade: {cepInfo.localidade}</span>
 		       <span>Logradouro: {cepInfo.logradouro}</span>
