@@ -4,7 +4,7 @@ import Main from "../Main/Main.js";
 import "../../css/Header/Header.css";
 
 function Header(props){
-  props.tt = var [cep, setCep] = useState("t");
+  var [cep, setCep] = useState("t");
   
   
   return(
@@ -26,3 +26,4 @@ function Header(props){
 }
 
 export default Header
+export cep
