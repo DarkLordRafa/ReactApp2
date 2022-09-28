@@ -1,6 +1,6 @@
 import React from "React";
 
-function Header{
+function Header(){
   return(
     <header className="container bg-prmary">
       <h1>Buscador
