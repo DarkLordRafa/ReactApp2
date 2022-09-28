@@ -3,7 +3,7 @@ import "../../css/Header.css";
 
 function Header(){
   return(
-    <header className="container header bg-secondary mt-0 pt-0">
+    <header className="container header bg-secondary m-0 p-0">
       <h1 className="mt-4">
         Buscador
         <br></br>
