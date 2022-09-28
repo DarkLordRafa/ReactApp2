@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react";
+import Main from "../Main/Main.js";
 import "../../css/Header/Header.css";
 
 function Header(){
