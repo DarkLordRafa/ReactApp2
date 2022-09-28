@@ -1,4 +1,9 @@
 
+.header{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 .header h1{
   text-transform: uppercase;
   font-size: 8vw;
