@@ -12,7 +12,7 @@ function Header(){
       </h1>
       
       <div className="mt-5 d-flex align-items-center justify-content-center">
-        <input type="text" placeholder="Insira um cep">
+        <input type="text" placeholder="Insira um cep"></input>
         <button className="btn ms-3">Buscar</button>
       </div>
     </header>
