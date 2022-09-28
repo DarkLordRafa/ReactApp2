@@ -31,13 +31,7 @@ export default function App() {
   return (
     <div>
       <header className="container header bg-secondary pt-3 pb-3">
-	      <h1>
-	        Buscador
-	        <br></br>
-	        de
-	        <br></br>
-	        cep
-	      </h1>
+	      <h1>Buscador de cep</h1>
       
 	      <div className="mt-5 d-flex align-items-center justify-content-center">
 		       <input value={cep} type="number" placeholder="Insira um cep" onChange={(e) => setCep(e.target.value)}></input>
