@@ -3,7 +3,7 @@ import {useState} from "react";
 import "../../css/Header/Header.css";
 
 function Header(){
-  const [cep, setCept] = useState("");
+  var [cep, setCept] = useState("");
   
   
   return(
