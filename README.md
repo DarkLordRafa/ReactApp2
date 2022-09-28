@@ -10,7 +10,7 @@
   
   <h2>O que foi utilizado no projeto:</h2>
   
-  <ul>
+  <ul align="left">
     <li>Ttt</li>
   </ul>
 </div>
