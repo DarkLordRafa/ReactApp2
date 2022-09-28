@@ -13,5 +13,8 @@
   font-size: 4.5vw;
   text-align: left;
   align-self: flex-start;
+}
+
+.cep-content span > *{
   font-weight: bold;
 }
