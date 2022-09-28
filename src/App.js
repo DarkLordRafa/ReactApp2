@@ -22,8 +22,8 @@ export default function App() {
       console.log(response.data);
       
     } catch{
-      alert("Houve um erro ao buscar o CEP. Certifique-se de colocar um CEP válido.");
-      setCep("");
+      //alert("Houve um erro ao buscar o CEP. Certifique-se de colocar um CEP válido.");
+      setCep("")
     }
   }
 
