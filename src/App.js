@@ -6,7 +6,7 @@ import "./css/Main/Main.css";
 
 export default function App() {
 
-  const [cep, setCep] = useState("t");
+  const [cep, setCep] = useState("");
 
   return (
     <div>
@@ -33,7 +33,7 @@ export default function App() {
 		       <span>Complemento: bla bla</span>
 		       <span>Panelas</span>
 		       <span>Paneles - PE</span>
-		     </section> 
+		     </section>
       </main>
     </div>
   );
